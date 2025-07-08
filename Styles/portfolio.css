@@ -56,6 +56,7 @@ color: white;
 padding: 18px 35px 19px 36px;
 border-radius: 5px;
 border: none;
+margin: 2px;
 
 }
 
@@ -91,6 +92,49 @@ font-weight: 600px;
     background-position: top left, bottom right;
 }
 
+/* main-section-part */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* background-color...secondary-... */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+/* about section style*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px ;
+
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/* item description class is here */
+   .about-items{
+    display: flex;
+    justify-content: space-around;
+   }
 
 
 
+
+.item-description{
+    font-weight: 600px
+    ;
+}
