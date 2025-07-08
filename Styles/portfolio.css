@@ -114,7 +114,7 @@ font-weight: 600px;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px ;
+    
 
 }
 
@@ -124,7 +124,10 @@ main{
     margin: 0 auto;
     
 }
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* item description class is here */
    .about-items{
     display: flex;
@@ -137,4 +140,21 @@ main{
 .item-description{
     font-weight: 600px
     ;
+}
+
+/* what i do section style */
+
+.text-center{
+    text-align: center;
+}
+/* skills style */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+padding: 30px;
+box-shadow: 0px 6px 50px 0px rgb(90, 80, 80);
+border-radius: 5px;
+
 }
